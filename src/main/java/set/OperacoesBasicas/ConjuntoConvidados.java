@@ -48,6 +48,8 @@ public class ConjuntoConvidados {
 
         conjuntoConvidados.removerConvidado(3);
         conjuntoConvidados.exibirConvidados();
+
+        System.out.println("Número de convidados: " + conjuntoConvidados.contarConvidados());
     }
 }
 
